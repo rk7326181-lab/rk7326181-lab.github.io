@@ -3,706 +3,561 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ravindra Kumar · Data Analyst</title>
-<meta name="description" content="T. Ravindra Kumar: MIS / Data Analyst at Shadowfax Technologies, Bengaluru. Built geospatial payout analytics that delivered ₹16–17 lakh a month in savings, plus automated rider-operations dashboards on BigQuery and Apps Script.">
-<meta property="og:title" content="Ravindra Kumar · Data Analyst">
-<meta property="og:description" content="Logistics analytics, BigQuery pipelines and automated operations dashboards. Case studies and verifiable certificates.">
+<title>Ravindra Kumar · MIS & Data Analyst</title>
+<meta name="description" content="Tangellamudi Ravindra Kumar, Data & MIS Analyst at Shadowfax Technologies, Bengaluru, India. Geospatial payout analytics delivering INR 1.6–1.7M (≈ US$18–20K) a month in savings, plus automated rider-operations reporting on BigQuery, Apps Script and Slack.">
+<meta property="og:title" content="Ravindra Kumar · MIS & Data Analyst">
+<meta property="og:description" content="Selected work, experience and verifiable certificates.">
 <meta property="og:image" content="https://rk7326181-lab.github.io/assets/img/og.jpg">
 <meta property="og:url" content="https://rk7326181-lab.github.io/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://rk7326181-lab.github.io/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Tangellamudi Ravindra Kumar","jobTitle":"MIS Analyst","worksFor":{"@type":"Organization","name":"Shadowfax Technologies"},"address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"email":"mailto:rk7326181@gmail.com","sameAs":["https://linkedin.com/in/trk7085","https://github.com/rk7326181-lab"],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Pondicherry University"},{"@type":"CollegeOrUniversity","name":"Andhra Loyola College"}],"knowsAbout":["SQL","BigQuery","Python","Power BI","Geospatial analytics","Google Apps Script","Logistics analytics"]}
+{"@context":"https://schema.org","@type":"Person","name":"Tangellamudi Ravindra Kumar","jobTitle":"MIS Analyst","worksFor":{"@type":"Organization","name":"Shadowfax Technologies"},"address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"email":"mailto:rk7326181@gmail.com","url":"https://rk7326181-lab.github.io/","sameAs":["https://linkedin.com/in/trk7085","https://github.com/rk7326181-lab"],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Pondicherry University"},{"@type":"CollegeOrUniversity","name":"Andhra Loyola College"}],"knowsAbout":["SQL","Google BigQuery","Python","Power BI","Geospatial analytics","Google Apps Script","Logistics analytics"]}
 </script>
 <style>
 :root{
-  --bg:#f5f6f3; --surface:#ffffff; --surface-2:#eef1ec; --text:#141c18; --muted:#5a6a62;
-  --line:#e0e6e1; --accent:#0b7a64; --accent-ink:#ffffff; --accent-soft:#dcf1ea; --lime:#c8e64a;
-  --ink-tile:#0f2a23; --ink-text:#e8f3ee;
-  --shadow:0 1px 2px rgba(16,32,24,.05),0 10px 30px rgba(16,32,24,.06);
+  --bg:#fbfaf7; --surface:#ffffff; --ink:#16181d; --ink-2:#3b4048; --muted:#6b717b; --line:#e6e3dc; --line-2:#d9d5cc;
+  --accent:#0d6e5c; --accent-soft:#eaf3f0;
+  --serif:"Newsreader",Georgia,serif; --sans:Inter,system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0b100e; --surface:#121a17; --surface-2:#18221e; --text:#e5eee9; --muted:#97aaa1;
-  --line:#22302a; --accent:#3ccfa6; --accent-ink:#04160f; --accent-soft:#143429; --lime:#c8e64a;
-  --ink-tile:#0f2a23; --ink-text:#e8f3ee;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25);
+  --bg:#111315; --surface:#17191c; --ink:#ecebe7; --ink-2:#c9c8c3; --muted:#9a9a95; --line:#26292d; --line-2:#33373c;
+  --accent:#5cc4a9; --accent-soft:#16302a;
 }}
 :root[data-theme="dark"]{
-  --bg:#0b100e; --surface:#121a17; --surface-2:#18221e; --text:#e5eee9; --muted:#97aaa1;
-  --line:#22302a; --accent:#3ccfa6; --accent-ink:#04160f; --accent-soft:#143429; --lime:#c8e64a;
-  --ink-tile:#0f2a23; --ink-text:#e8f3ee;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25);
+  --bg:#111315; --surface:#17191c; --ink:#ecebe7; --ink-2:#c9c8c3; --muted:#9a9a95; --line:#26292d; --line-2:#33373c;
+  --accent:#5cc4a9; --accent-soft:#16302a;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+main{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
 img{max-width:100%;display:block}
-.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
-.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+@media (max-width:560px){.wrap{padding:0 16px}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.eyebrow{font:500 .75rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 
-/* nav */
-header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-nav{display:flex;align-items:center;gap:20px;height:60px}
-.brand{font-weight:800;color:var(--text);margin-right:auto;letter-spacing:-.02em}
-.brand span{color:var(--accent)}
-.navlinks{display:flex;gap:18px;font-size:.9rem}
-.navlinks a{color:var(--muted)}
-.navlinks a:hover{color:var(--text);text-decoration:none}
-.iconbtn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:9px;width:36px;height:36px;cursor:pointer;font-size:1rem}
-.navcta{background:var(--accent);color:var(--accent-ink)!important;padding:7px 14px;border-radius:9px;font-weight:600;font-size:.88rem}
-@media (max-width:760px){.navlinks{display:none}}
+header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;gap:28px;height:64px}
+.brand{font:600 1rem var(--sans);text-decoration:none;margin-right:auto;letter-spacing:-.01em}
+.navlinks{display:flex;gap:26px;font-size:.9rem}
+.navlinks a{text-decoration:none;color:var(--muted)}
+.navlinks a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px;border-radius:8px;font:500 .9rem var(--sans);text-decoration:none;border:1px solid var(--line-2);background:var(--surface);color:var(--ink);transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--ink)}
+.btn.dark{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.btn.dark:hover{opacity:.9}
+.btn.sm{height:34px;padding:0 14px;font-size:.85rem}
+.theme{width:34px;height:34px;border-radius:8px;border:1px solid var(--line-2);background:transparent;color:var(--muted);cursor:pointer}
+@media (max-width:820px){.navlinks{display:none}nav{gap:12px}}
+.brand{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:420px){.brand{font-size:.86rem}}
 
-/* bento hero */
-.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(120px,auto);gap:14px;padding:28px 0 8px}
-.tile{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
-.t-intro{grid-column:span 3;grid-row:span 2;display:flex;flex-direction:column;justify-content:center;padding:34px}
-.t-photo{grid-row:span 2;padding:0}
-.t-photo img{width:100%;height:100%;object-fit:cover}
-.t-photo .loc{position:absolute;left:12px;bottom:12px;background:rgba(10,20,16,.72);color:#fff;font-size:.8rem;padding:6px 10px;border-radius:999px;backdrop-filter:blur(6px)}
-.t-dark{background:var(--ink-tile);color:var(--ink-text);border-color:transparent}
-.t-dark .muted{color:#a9c4b9}
-.t-big{grid-column:span 2}
-.pill{display:inline-flex;align-items:center;gap:8px;background:var(--accent-soft);color:var(--accent);padding:6px 12px;border-radius:999px;font-size:.82rem;font-weight:600;width:fit-content}
-.pill i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block;animation:pulse 2s infinite}
-@keyframes pulse{50%{opacity:.35}}
-h1{font-size:clamp(1.9rem,4.4vw,3.2rem);line-height:1.08;margin:16px 0 14px;letter-spacing:-.03em}
-h1 em{font-style:normal;color:var(--accent)}
-.lead{color:var(--muted);font-size:1.05rem;max-width:58ch;margin:0}
-.ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:11px;font-weight:600;font-size:.92rem;border:1px solid var(--line);color:var(--text);background:var(--surface)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.btn:hover{text-decoration:none;transform:translateY(-1px)}
-.metric b{display:block;font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.03em;line-height:1.1}
-.metric .lime{color:var(--lime)}
-.metric span{font-size:.86rem;color:var(--muted)}
-.t-dark.metric span{color:#a9c4b9}
-.stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.chip{font-size:.76rem;padding:4px 9px;border-radius:7px;background:var(--surface-2);border:1px solid var(--line);white-space:nowrap}
-.t-dark .chip{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.1);color:var(--ink-text)}
-@media (max-width:900px){.bento{grid-template-columns:repeat(2,1fr)}.t-intro{grid-column:span 2;grid-row:auto;padding:26px}.t-photo{grid-row:span 2}.t-big{grid-column:span 2}}
-@media (max-width:520px){.bento{grid-template-columns:1fr}.t-intro,.t-big{grid-column:auto}.t-photo{grid-row:auto;aspect-ratio:1}}
+.hero{display:grid;grid-template-columns:1fr 300px;gap:64px;align-items:center;padding:88px 0 64px}
+.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.2rem,4.8vw,3.5rem);line-height:1.08;letter-spacing:-.02em;margin:18px 0 22px}
+.hero p.lead{font-size:1.1rem;color:var(--ink-2);max-width:56ch;margin:0}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero .meta{margin-top:28px;font-size:.88rem;color:var(--muted)}
+.hero .meta span{display:inline-block}
+.hero .meta span+span::before{content:"·";margin:0 10px;color:var(--line-2)}
+.portrait img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:6px;filter:saturate(.92)}
+@media (max-width:860px){.hero{grid-template-columns:1fr;gap:32px;padding:48px 0 40px}.portrait{max-width:220px;order:-1}}
 
-section{padding:64px 0 24px}
-.sec-head{margin-bottom:26px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px}
-.sec-head .mono{color:var(--accent)}
-h2{font-size:clamp(1.55rem,3vw,2.15rem);margin:6px 0 4px;letter-spacing:-.025em}
-.sec-head p{color:var(--muted);margin:0;max-width:60ch}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.metric{padding:28px 24px 28px 0}
+.metric+.metric{padding-left:24px;border-left:1px solid var(--line)}
+.metric b{display:block;font-variant-numeric:tabular-nums;font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,2.6vw,2.05rem);letter-spacing:-.02em;line-height:1.1}
+.metric > span{display:block;margin-top:8px;font-size:.86rem;color:var(--muted);line-height:1.45}
+@media (max-width:820px){.metrics{grid-template-columns:1fr 1fr}.metric{padding:22px 16px 22px 0}.metric+.metric{padding-left:16px}.metric:nth-child(3){padding-left:0;border-left:0}.metric:nth-child(n+3){border-top:1px solid var(--line)}}
 
-/* case studies */
-.case{background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:26px}
-.case-hero{position:relative;background:var(--surface-2);border-bottom:1px solid var(--line);cursor:zoom-in}
-.case-hero img{width:100%;max-height:440px;object-fit:cover;object-position:top}
-.case-hero .tags{position:absolute;left:16px;top:16px;display:flex;gap:6px;flex-wrap:wrap}
-.tag{font-size:.74rem;font-weight:600;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.92);color:#123;border:1px solid rgba(0,0,0,.06)}
-.tag.now{background:var(--lime);color:#14200a}
-.case-body{padding:26px 28px 28px}
-.case-banner{background:var(--ink-tile);color:var(--ink-text);padding:28px}
-.pipe{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:center}
-.pipe div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px}
-.pipe small{display:block;font-family:"JetBrains Mono",monospace;font-size:.68rem;color:var(--lime);text-transform:uppercase}
-.pipe b{display:block;color:#fff}
-.pipe span{font-size:.8rem;color:#a9c4b9}
-.pipe i{font-style:normal;color:var(--lime);font-size:1.3rem}
-@media (max-width:860px){.pipe{grid-template-columns:1fr}.pipe i{transform:rotate(90deg);justify-self:center}}
-.offers{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-@media (max-width:720px){.offers{grid-template-columns:1fr}}
-.offer{display:flex;justify-content:space-between;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
-.offer b{display:block;font-size:.95rem}
-.offer span{font-size:.84rem;color:var(--muted)}
-.offer time{font-family:"JetBrains Mono",monospace;font-size:.76rem;color:var(--muted);white-space:nowrap}
-.promo{display:inline-block;font-size:.72rem;font-weight:600;background:var(--lime);color:#14200a;padding:2px 8px;border-radius:999px;margin-left:6px;vertical-align:middle}
-.linklist{columns:2;column-gap:24px;margin:0;padding:0;list-style:none}
-@media (max-width:640px){.linklist{columns:1}}
-.linklist li{break-inside:avoid;display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:.92rem}
-.case h3{font-size:clamp(1.25rem,2.4vw,1.6rem);margin:0 0 6px;letter-spacing:-.02em}
-.case .pitch{color:var(--muted);margin:0 0 20px;max-width:75ch}
-.pai{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media (max-width:860px){.pai{grid-template-columns:1fr}}
-.pai > div{background:var(--surface-2);border-radius:16px;padding:16px 18px}
-.pai h4{margin:0 0 8px;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
-.pai ul{margin:0;padding-left:18px;font-size:.93rem}
-.pai li{margin:5px 0}
-.impact-row{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 4px}
-.impact{background:var(--accent-soft);border-radius:12px;padding:10px 14px}
-.impact b{display:block;font-size:1.15rem;color:var(--accent);letter-spacing:-.02em}
-.impact span{font-size:.8rem;color:var(--muted)}
-.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
-@media (max-width:640px){.thumbs{grid-template-columns:1fr 1fr}}
-.thumbs figure{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:zoom-in;background:var(--surface-2)}
-.thumbs img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
-.thumbs figcaption{font-size:.76rem;color:var(--muted);padding:6px 10px;background:var(--surface)}
-.note{font-size:.8rem;color:var(--muted);margin-top:12px}
+section{padding:96px 0 0}
+.sec-head{display:grid;grid-template-columns:220px 1fr;gap:40px;margin-bottom:44px}
+.sec-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.7rem,3vw,2.3rem);letter-spacing:-.02em;line-height:1.15;margin:0}
+.sec-head p{margin:10px 0 0;color:var(--muted);max-width:60ch}
+@media (max-width:820px){section{padding-top:72px}.sec-head{grid-template-columns:1fr;gap:10px;margin-bottom:28px}}
 
-.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:18px}
-@media (max-width:860px){.flow{grid-template-columns:repeat(2,1fr)}}
-.flow div{border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:12px;padding:10px 12px;background:var(--surface)}
-.flow b{display:block;font-size:.88rem}
-.flow small{display:block;font-family:"JetBrains Mono",monospace;font-size:.68rem;color:var(--accent);text-transform:uppercase;margin-bottom:2px}
-.flow span{font-size:.8rem;color:var(--muted)}
+.case{padding:56px 0;border-top:1px solid var(--line)}
+.case:first-of-type{border-top:0;padding-top:0}
+.case-grid{display:grid;grid-template-columns:220px 1fr;gap:40px}
+@media (max-width:820px){.case-grid{grid-template-columns:1fr;gap:20px}.case-grid > div{order:-1}}
+.facts{font-size:.86rem}
+.facts dl{margin:0;display:grid;gap:16px;position:sticky;top:88px}
+.facts dt{color:var(--muted);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+.facts dd{margin:0;color:var(--ink-2);line-height:1.5}
+.status{display:inline-flex;align-items:center;gap:7px;color:var(--accent);font-weight:500}
+.status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+@media (max-width:820px){.facts dl{grid-template-columns:repeat(2,1fr);position:static;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}}
+.case h3{font-family:var(--serif);font-weight:500;font-size:clamp(1.45rem,2.6vw,1.9rem);letter-spacing:-.015em;line-height:1.2;margin:0 0 12px}
+.case .summary{font-size:1.05rem;color:var(--ink-2);margin:0 0 28px;max-width:68ch}
+.shot{margin:0 0 28px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface);cursor:zoom-in}
+.shot img{width:100%;height:auto}
+.shot.crop img{max-height:460px;object-fit:cover;object-position:top}
+.shot figcaption{font-size:.8rem;color:var(--muted);padding:10px 14px;border-top:1px solid var(--line)}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 28px}
+.shots .shot{margin:0}
+.shots img{aspect-ratio:16/10;object-fit:cover;object-position:top}
+@media (max-width:560px){.shots{grid-template-columns:1fr}}
+.pao{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+@media (max-width:820px){.pao{grid-template-columns:1fr;gap:20px}}
+.pao h4{font:500 .72rem var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.pao ul,.role ul{margin:0;padding:0;list-style:none;color:var(--ink-2)}
+.pao ul{font-size:.93rem}
+.pao li,.role li{margin:0 0 9px;padding-left:14px;position:relative;line-height:1.55}
+.pao li::before,.role li::before{content:"";position:absolute;left:0;top:.75em;width:5px;height:1px;background:var(--muted)}
+.pao b,.role b{color:var(--ink);font-weight:600}
+.pipeline{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;margin:0 0 28px;background:var(--surface)}
+.pipeline div{padding:16px 18px}
+.pipeline div+div{border-left:1px solid var(--line)}
+.pipeline small{display:block;font:400 .7rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.pipeline b{display:block;font-weight:600;font-size:.92rem;margin-top:4px}
+.pipeline span{font-size:.82rem;color:var(--muted)}
+@media (max-width:720px){.pipeline{grid-template-columns:1fr 1fr}.pipeline div:nth-child(3){border-left:0}.pipeline div:nth-child(n+3){border-top:1px solid var(--line)}}
 
-.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media (max-width:860px){.mini{grid-template-columns:1fr}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px}
-.card h3{margin:0 0 4px;font-size:1.02rem}
-.card p{margin:0;color:var(--muted);font-size:.93rem}
+.rows{border-top:1px solid var(--line)}
+.role{display:grid;grid-template-columns:220px 1fr;gap:40px;padding:28px 0;border-bottom:1px solid var(--line)}
+@media (max-width:820px){.role{grid-template-columns:1fr;gap:6px;padding:22px 0}}
+.role .when{font:400 .82rem var(--mono);color:var(--muted);padding-top:3px}
+.role h3{font-size:1.05rem;font-weight:600;margin:0}
+.role h4{font-size:.98rem;font-weight:600;margin:0}
+.role h4 span{font-weight:400;color:var(--muted)}
+.role .org{color:var(--muted);font-size:.93rem;margin-top:2px}
+.role ul{margin-top:12px;font-size:.95rem}
+.role .sub{margin-top:18px}
+.role .sub + .sub{padding-top:18px;border-top:1px dashed var(--line)}
+.note{font-size:.88rem;color:var(--muted);margin:14px 0 0}
+.skill{display:grid;grid-template-columns:220px 1fr;gap:40px;padding:16px 0;border-bottom:1px solid var(--line)}
+.skill h4{margin:0;font-size:.95rem;font-weight:600}
+.skill p{margin:0;color:var(--ink-2);font-size:.95rem}
+@media (max-width:820px){.skill{grid-template-columns:1fr;gap:4px}}
 
-/* experience */
-.xp{display:grid;gap:14px}
-.job{display:grid;grid-template-columns:180px 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
-@media (max-width:640px){.job{grid-template-columns:1fr;gap:6px}}
-.job .when{font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--muted);padding-top:3px}
-.job h3{margin:0;font-size:1.08rem}
-.job .org{color:var(--muted);font-size:.93rem}
-.job ul{margin:10px 0 0;padding-left:18px;font-size:.94rem}
-
-/* skills */
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media (max-width:860px){.skills{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.skills{grid-template-columns:1fr}}
-.skill h4{margin:0 0 2px;font-size:.98rem}
-.skill p{font-size:.84rem;color:var(--muted);margin:0 0 6px}
-
-/* credentials */
-.filters{display:flex;flex-wrap:wrap;gap:8px}
-.filters button{border:1px solid var(--line);background:var(--surface);color:var(--muted);padding:6px 12px;border-radius:999px;font:inherit;font-size:.85rem;cursor:pointer}
-.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media (max-width:900px){.certs{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.certs{grid-template-columns:1fr}}
-.cert{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
-.cert button.thumb{border:0;padding:0;background:var(--surface-2);cursor:zoom-in;display:block;border-bottom:1px solid var(--line)}
-.cert img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top}
-.cert .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
-.cert h3{margin:0;font-size:.98rem;line-height:1.35}
+.certs{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 20px}
+@media (max-width:900px){.certs{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:420px){.certs{grid-template-columns:1fr}}
+.cert{display:flex;flex-direction:column}
+.cert button{border:1px solid var(--line);border-radius:6px;padding:0;background:var(--surface);cursor:zoom-in;overflow:hidden}
+.cert img{width:100%;aspect-ratio:4/3;object-fit:contain;background:var(--surface)}
+.cert h3{font-size:.92rem;font-weight:600;line-height:1.4;margin:12px 0 2px}
 .cert .meta{font-size:.82rem;color:var(--muted)}
-.cert .row{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:10px;gap:8px}
-.verify{font-size:.82rem;font-weight:600;display:inline-flex;gap:6px;align-items:center}
-.verified{font-size:.72rem;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:3px 8px;border-radius:999px}
-.cert[hidden]{display:none}
-.textcreds{margin-top:14px}
+.cert a{font-size:.82rem;color:var(--accent);text-decoration:none;margin-top:6px;font-weight:500}
+.cert a:hover,.list a:hover{text-decoration:underline}
+details.more{margin-top:44px;border-top:1px solid var(--line)}
+details.more summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:500;display:flex;justify-content:space-between}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:"+";color:var(--muted);font-size:1.2rem;line-height:1}
+details.more[open] summary::after{content:"–"}
+.list{list-style:none;margin:0;padding:0;columns:2;column-gap:48px}
+@media (max-width:720px){.list{columns:1}}
+.list li{break-inside:avoid;display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.list li > :last-child{color:var(--muted);font-size:.85rem;white-space:nowrap;text-decoration:none}
+.list li a{color:var(--accent)!important}
 
-.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media (max-width:860px){.edu{grid-template-columns:1fr}}
+.contact{padding:96px 0 40px}
+.contact-inner{border-top:1px solid var(--ink);padding-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.contact h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,3.6vw,2.8rem);letter-spacing:-.02em;line-height:1.1;margin:0 0 14px}
+.contact p{color:var(--ink-2);margin:0;max-width:44ch}
+.links{display:grid;align-content:start}
+.links a{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.links a span{color:var(--muted);overflow:hidden;text-overflow:ellipsis}
+.links a:hover span{color:var(--accent)}
+@media (max-width:820px){.contact-inner{grid-template-columns:1fr}}
+footer{padding:24px 0 48px;font-size:.8rem;color:var(--muted)}
 
-.contact{background:var(--ink-tile);color:var(--ink-text);border-radius:26px;padding:36px;display:grid;grid-template-columns:1.2fr 1fr;gap:26px;align-items:center}
-@media (max-width:760px){.contact{grid-template-columns:1fr;padding:26px}}
-.contact h2{color:#fff}
-.contact p{color:#a9c4b9}
-.contact-links{display:grid;gap:10px}
-.contact-links a{display:flex;justify-content:space-between;gap:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:13px;padding:14px 16px;color:#fff}
-.contact-links a span{color:#a9c4b9;overflow:hidden;text-overflow:ellipsis}
-footer{padding:30px 0 44px;color:var(--muted);font-size:.84rem}
 
-.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+/* ---------- motion & graphics ---------- */
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--accent),#c9a227);z-index:20}
+.hero{position:relative;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:-40px -10vw auto -10vw;height:120%;z-index:-2;
+  background:radial-gradient(600px 320px at 78% 40%,color-mix(in srgb,var(--accent) 14%,transparent),transparent 70%),
+             radial-gradient(420px 260px at 10% 10%,color-mix(in srgb,#c9a227 10%,transparent),transparent 70%)}
+.net{position:absolute;right:-90px;top:10px;width:620px;height:560px;z-index:-1;opacity:.6;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 45%);mask-image:linear-gradient(90deg,transparent 0%,#000 45%)}
+.net line{stroke:var(--accent);stroke-width:.8;stroke-opacity:.35;stroke-dasharray:4 6;animation:flow 6s linear infinite}
+.net circle{fill:var(--accent)}
+.net circle.pulse{animation:pulse 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes flow{to{stroke-dashoffset:-100}}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:1;transform:scale(1.8)}}
+@media (max-width:860px){.net{width:420px;height:380px;right:-120px;top:0;opacity:.35}}
+.portrait{position:relative}
+.portrait::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--line-2);border-radius:6px;z-index:-1}
+.hero h1 em{font-style:italic;background:linear-gradient(90deg,var(--accent),#b8901c,var(--accent));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 6s ease-in-out infinite}
+@keyframes sheen{50%{background-position:100% 0}}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
 .reveal.in{opacity:1;transform:none}
+.shot{transition:box-shadow .35s,transform .35s}
+.shot img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.shot:hover{box-shadow:0 18px 40px -18px rgba(0,0,0,.28);transform:translateY(-3px)}
+.shot:hover img{transform:scale(1.025)}
+.cert button{transition:box-shadow .3s,transform .3s}
+.cert button:hover{transform:translateY(-4px);box-shadow:0 16px 32px -16px rgba(0,0,0,.3)}
+.btn.dark::after{content:"→";transition:transform .2s}
+.btn.dark:hover::after{transform:translateX(4px)}
+.metric b{transition:color .3s}
+.metric:hover b{color:var(--accent)}
+.pipeline{position:relative;overflow:hidden}
+.pipeline::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent);background-size:40% 100%;background-repeat:no-repeat;animation:run 3.5s linear infinite}
+@keyframes run{from{background-position:-40% 0}to{background-position:140% 0}}
+.case h3{position:relative}
+.facts dt{transition:color .2s}
+.case:hover .facts dt{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){.net line,.net circle.pulse,.hero h1 em,.pipeline::after{animation:none}.reveal{opacity:1;transform:none;transition:none}.progress{display:none}}
 
-dialog{border:none;padding:0;background:transparent;max-width:min(1240px,94vw)}
-dialog::backdrop{background:rgba(4,8,6,.85)}
-dialog img{border-radius:12px;max-height:84vh;width:auto;margin:auto}
-dialog p{color:#dfe9e4;text-align:center;font-size:.9rem;margin:10px 0 0}
+dialog{border:0;padding:0;background:transparent;max-width:min(1240px,94vw)}
+dialog::backdrop{background:rgba(10,11,12,.86)}
+dialog img{border-radius:4px;max-height:84vh;width:auto;margin:auto}
+dialog p{color:#ddd;text-align:center;font-size:.86rem;margin:12px 0 0}
 </style>
 </head>
 <body>
+<div class="progress" id="progress"></div>
 <header>
   <div class="wrap">
     <nav aria-label="Main">
-      <a class="brand" href="#top">Ravindra<span>.</span></a>
-      <div class="navlinks">
-        <a href="#work">Case studies</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#credentials">Certificates</a><a href="#education">Education</a>
-      </div>
-      <a class="navcta" href="#contact">Contact</a>
-      <button class="iconbtn" id="theme" aria-label="Toggle colour theme" title="Toggle theme">◐</button>
+      <a class="brand" href="#top">Tangellamudi Ravindra Kumar</a>
+      <div class="navlinks"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></div>
+      <a class="btn sm" href="assets/Ravindra_Kumar_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <button class="theme" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
     </nav>
   </div>
 </header>
 
 <main id="top">
 <div class="wrap">
-  <div class="bento">
-    <div class="tile t-intro">
-      <span class="pill"><i></i>Open to Data · Business · MIS Analyst roles</span>
-      <h1>I build analytics tools that <em>cut real costs</em> in last-mile logistics.</h1>
-      <p class="lead">I'm T. Ravindra Kumar, MIS Analyst at Shadowfax Technologies. I turn BigQuery data into geospatial payout models and automated dashboards that operations, finance and HR teams use instead of manual Excel work.</p>
-      <div class="ctas">
-        <a class="btn primary" href="#work">View case studies</a>
-        <a class="btn" href="assets/Ravindra_Kumar_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
-        <a class="btn" href="#credentials">Verified certificates</a>
+  <div class="hero">
+    <svg class="net" viewBox="0 0 620 560" aria-hidden="true"><line x1="351" y1="174" x2="335" y2="205" style="animation-delay:-0s"/><line x1="351" y1="174" x2="401" y2="119" style="animation-delay:-1s"/><line x1="424" y1="69" x2="426" y2="70" style="animation-delay:-2s"/><line x1="424" y1="69" x2="394" y2="79" style="animation-delay:-3s"/><line x1="94" y1="116" x2="80" y2="146" style="animation-delay:-4s"/><line x1="94" y1="116" x2="58" y2="108" style="animation-delay:-5s"/><line x1="394" y1="79" x2="426" y2="70" style="animation-delay:-0s"/><line x1="539" y1="239" x2="590" y2="156" style="animation-delay:-1s"/><line x1="539" y1="239" x2="580" y2="84" style="animation-delay:-2s"/><line x1="58" y1="108" x2="80" y2="146" style="animation-delay:-3s"/><line x1="464" y1="448" x2="484" y2="390" style="animation-delay:-4s"/><line x1="464" y1="448" x2="564" y2="457" style="animation-delay:-5s"/><line x1="91" y1="266" x2="125" y2="212" style="animation-delay:-0s"/><line x1="91" y1="266" x2="80" y2="146" style="animation-delay:-1s"/><line x1="112" y1="454" x2="230" y2="528" style="animation-delay:-2s"/><line x1="112" y1="454" x2="91" y2="266" style="animation-delay:-3s"/><line x1="248" y1="83" x2="246" y2="67" style="animation-delay:-4s"/><line x1="248" y1="83" x2="167" y2="140" style="animation-delay:-5s"/><line x1="246" y1="67" x2="167" y2="140" style="animation-delay:-0s"/><line x1="590" y1="156" x2="580" y2="84" style="animation-delay:-1s"/><line x1="590" y1="156" x2="597" y2="81" style="animation-delay:-2s"/><line x1="316" y1="449" x2="341" y2="496" style="animation-delay:-3s"/><line x1="316" y1="449" x2="230" y2="528" style="animation-delay:-4s"/><line x1="167" y1="140" x2="94" y2="116" style="animation-delay:-5s"/><line x1="167" y1="140" x2="125" y2="212" style="animation-delay:-0s"/><line x1="335" y1="205" x2="326" y2="274" style="animation-delay:-1s"/><line x1="125" y1="212" x2="80" y2="146" style="animation-delay:-2s"/><line x1="401" y1="119" x2="394" y2="79" style="animation-delay:-3s"/><line x1="401" y1="119" x2="426" y2="70" style="animation-delay:-4s"/><line x1="580" y1="84" x2="597" y2="81" style="animation-delay:-5s"/><line x1="230" y1="528" x2="341" y2="496" style="animation-delay:-0s"/><line x1="564" y1="457" x2="484" y2="390" style="animation-delay:-1s"/><line x1="326" y1="274" x2="351" y2="174" style="animation-delay:-2s"/><circle cx="351" cy="174" r="3" class="pulse" style="animation-delay:-0.0s"/><circle cx="424" cy="69" r="2" class="" style="animation-delay:-0.6s"/><circle cx="94" cy="116" r="2" class="" style="animation-delay:-1.2s"/><circle cx="394" cy="79" r="2" class="" style="animation-delay:-1.8s"/><circle cx="539" cy="239" r="3" class="pulse" style="animation-delay:-2.4s"/><circle cx="58" cy="108" r="2" class="" style="animation-delay:-0.0s"/><circle cx="464" cy="448" r="2" class="" style="animation-delay:-0.6s"/><circle cx="91" cy="266" r="2" class="" style="animation-delay:-1.2s"/><circle cx="112" cy="454" r="3" class="pulse" style="animation-delay:-1.8s"/><circle cx="80" cy="146" r="2" class="" style="animation-delay:-2.4s"/><circle cx="248" cy="83" r="2" class="" style="animation-delay:-0.0s"/><circle cx="426" cy="70" r="2" class="" style="animation-delay:-0.6s"/><circle cx="246" cy="67" r="3" class="pulse" style="animation-delay:-1.2s"/><circle cx="590" cy="156" r="2" class="" style="animation-delay:-1.8s"/><circle cx="316" cy="449" r="2" class="" style="animation-delay:-2.4s"/><circle cx="167" cy="140" r="2" class="" style="animation-delay:-0.0s"/><circle cx="335" cy="205" r="3" class="pulse" style="animation-delay:-0.6s"/><circle cx="125" cy="212" r="2" class="" style="animation-delay:-1.2s"/><circle cx="401" cy="119" r="2" class="" style="animation-delay:-1.8s"/><circle cx="580" cy="84" r="2" class="" style="animation-delay:-2.4s"/><circle cx="597" cy="81" r="3" class="pulse" style="animation-delay:-0.0s"/><circle cx="230" cy="528" r="2" class="" style="animation-delay:-0.6s"/><circle cx="564" cy="457" r="2" class="" style="animation-delay:-1.2s"/><circle cx="341" cy="496" r="2" class="" style="animation-delay:-1.8s"/><circle cx="484" cy="390" r="3" class="pulse" style="animation-delay:-2.4s"/><circle cx="326" cy="274" r="2" class="" style="animation-delay:-0.0s"/></svg>
+    <div>
+      <div class="eyebrow">Data &amp; MIS Analyst · Shadowfax Technologies</div>
+      <h1>Analytics that take <em>cost</em> out of last-mile logistics.</h1>
+      <p class="lead">I build BigQuery pipelines, geospatial payout models and automated reporting systems that operations, finance and HR teams rely on every day, replacing manual Excel work with tools that are measurable and auditable.</p>
+      <div class="actions">
+        <a class="btn dark" href="#work">View selected work</a>
+        <a class="btn" href="assets/Ravindra_Kumar_Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
       </div>
+      <div class="meta"><span>Bengaluru</span><span>Open to Bengaluru &amp; Hyderabad</span><span>Available on 15 days’ notice</span></div>
     </div>
-    <div class="tile t-photo">
-      <img src="assets/img/photo.webp" alt="Portrait of T. Ravindra Kumar" width="640" height="800" style="object-position:center 20%">
-      <span class="loc">📍 Bengaluru · open to Hyderabad</span>
-    </div>
+    <div class="portrait"><img src="assets/img/photo.webp" alt="Portrait of Tangellamudi Ravindra Kumar" width="640" height="800"></div>
+  </div>
 
-    <div class="tile t-dark metric t-big">
-      <b class="lime">₹16–17 lakh / month</b>
-      <span>in payout savings delivered by my cluster-payout optimisation, against a ₹20 lakh-a-month target</span>
-    </div>
-    <div class="tile metric">
-      <b>4–5 h → &lt;1 h</b>
-      <span>per clustering run after automating it</span>
-    </div>
-    <div class="tile metric">
-      <b>1,400+</b>
-      <span>delivery hubs analysed across India</span>
-    </div>
-
-    <div class="tile t-big">
-      <div class="mono" style="color:var(--accent)">Toolkit</div>
-      <div class="stack">
-        <span class="chip">SQL</span><span class="chip">BigQuery</span><span class="chip">Python · pandas</span><span class="chip">GeoPandas · Shapely</span><span class="chip">Power BI</span><span class="chip">Streamlit</span><span class="chip">Google Apps Script</span><span class="chip">Excel</span><span class="chip">scikit-learn</span>
-      </div>
-    </div>
-    <div class="tile metric">
-      <b>130K+</b>
-      <span>rider orders a month monitored automatically</span>
-    </div>
-    <div class="tile metric">
-      <b>20+</b>
-      <span>certificates with proof, most verifiable online (HackerRank SQL, Power BI, UGC-NET and more)</span>
-    </div>
+  <div class="metrics">
+    <div class="metric"><b>INR 1.6–1.7M</b><span>monthly payout savings (≈ US$18–20K), 80–85% of target</span></div>
+    <div class="metric"><b>4–5 h → &lt;1 h</b><span>per payout-clustering run after automation</span></div>
+    <div class="metric"><b><span data-count="1400">1,400</span>+ hubs</b><span>and 13,000+ payout polygons analysed across India</span></div>
+    <div class="metric"><b><span data-count="780">780</span>+ riders</b><span>monitored live, about 500K orders a week</span></div>
   </div>
 </div>
 
-<!-- CASE STUDIES -->
 <section id="work">
 <div class="wrap">
   <div class="sec-head">
-    <div>
-      <div class="mono">Case studies</div>
-      <h2>Problem → approach → impact</h2>
-      <p>Internal tools I designed and built at Shadowfax. They run on company data, so hub names, rider details and internal cost figures are blurred in every screenshot.</p>
-    </div>
+    <div class="eyebrow">Selected work</div>
+    <div><h2>Four internal tools, built and running at Shadowfax</h2><p>Screenshots come from the live tools. Hub names, rider details and internal cost figures are blurred.</p></div>
   </div>
 
-  <!-- DE Rider MIS -->
-  <article class="case reveal">
-    <div class="case-hero" data-full="assets/img/de-rider-hubs.webp" data-cap="DE Rider MIS: hub-level view (hub names, salary and payout amounts blurred)">
-      <img src="assets/img/de-rider-hubs.webp" alt="DE Rider MIS dashboard with KPI cards and hub-level table" width="1905" height="871">
-    </div>
-    <div class="case-banner">
-      <div class="tags" style="position:static;margin-bottom:18px"><span class="tag now">Current project · live</span><span class="tag">Google Apps Script</span><span class="tag">Slack API</span><span class="tag">Node.js</span></div>
-      <div class="pipe" aria-label="Data flow">
-        <div><small>Daily</small><b>Slack upload</b><span>~950K-row rider export</span></div>
-        <i>→</i>
-        <div><small>Local</small><b>Stream filter</b><span>492 MB → ~3 MB</span></div>
-        <i>→</i>
-        <div><small>Rules engine</small><b>Approved formulas</b><span>CPO · MG · proration · burn</span></div>
-        <i>→</i>
-        <div><small>Role-based</small><b>Dashboard</b><span>Rider · hub · city · history</span></div>
+  <article class="case">
+    <div class="case-grid">
+      <aside class="facts"><dl>
+        <div><dt>Outcome</dt><dd>INR 1.6–1.7M (≈ US$18–20K) saved per month</dd></div>
+        <div><dt>Role</dt><dd>Sole analyst &amp; developer</dd></div>
+        <div><dt>Stack</dt><dd>Python, Streamlit, BigQuery, GeoPandas, Shapely, Folium, scikit-learn, GitHub Actions</dd></div>
+        <div><dt>Scope</dt><dd>1,400+ hubs · 13,000+ polygons</dd></div>
+      </dl></aside>
+      <div>
+        <h3>Cluster Payout Optimization</h3>
+        <p class="summary">A geospatial cost model that maps every delivery-cluster polygon and its surge rate, finds the hubs where payouts are leaking money, and recommends the cheapest correction.</p>
+        <figure class="shot crop" data-full="assets/img/payout-map.webp" data-cap="Network map: 13,552 cluster polygons coloured by surge rate"><img src="assets/img/payout-map.webp" alt="India map of delivery-cluster polygons coloured by surge rate" width="1002" height="780"><figcaption>Network map: 13,552 cluster polygons coloured by surge rate</figcaption></figure>
+        <div class="pao">
+          <div><h4>Problem</h4><ul>
+            <li>Riders earn an INR 0–14 surge per delivery, set by the polygon the delivery falls in.</li>
+            <li>Clustering incentives cost about INR 10M a month, and where a polygon's rate didn't match its distance from the hub, cost per order rose unnoticed.</li>
+          </ul></div>
+          <div><h4>Approach</h4><ul>
+            <li>Daily BigQuery refresh through GitHub Actions.</li>
+            <li>Haversine distances from hub to polygon, plus an SOP-compliance check.</li>
+            <li>Point-in-polygon matching of shipments to compute burn per polygon and a priority score.</li>
+            <li>Anomaly detection (Isolation Forest, LOF) to flag unusual hubs.</li>
+          </ul></div>
+          <div><h4>Outcome</h4><ul>
+            <li><b>INR 1.6–1.7M a month saved</b> (≈ US$18–20K), 80–85% of an INR 2.0M monthly target.</li>
+            <li>Ranked, explainable actions for operations ("lower the rate or widen the radius"), each with before/after cost.</li>
+          </ul></div>
+        </div>
       </div>
-    </div>
-    <div class="case-body">
-      <h3>DE Rider MIS: Delivery Executive cost &amp; productivity reporting</h3>
-      <p class="pitch">An automated reporting system that picks up a daily rider-data file of about 950K rows from Slack, keeps only the Delivery Executive (DE) riders, applies approved business rules and serves managers a secure dashboard. It was built entirely on free Google tools.</p>
-      <div class="pai">
-        <div><h4>Problem</h4><ul>
-          <li>DE rider cost and productivity reporting was done by hand in Excel.</li>
-          <li>The daily export was 146–186 MB, with 770K–950K rows, and only about 0.6% of the rows were DE riders.</li>
-          <li>Every day meant filtering, lookups and recalculation, with errors and no history kept.</li>
-        </ul></div>
-        <div><h4>Approach</h4><ul>
-          <li>A Slack app picks up each daily file, and file-level plus row-level de-duplication means nothing is double-counted.</li>
-          <li>A local streaming pre-filter works around Apps Script's file-size limit by keeping only the 20 approved DE pay structures.</li>
-          <li>A rules engine matches the existing Excel formulas exactly, plus minimum-guarantee payouts by hub type, prorated salary, productivity, hub and zero-order flags, next-month projection and incremental burn.</li>
-          <li>Managers edit formulas in a sheet tab, and a metric can't go live until its formula is approved.</li>
-        </ul></div>
-        <div><h4>Impact</h4><ul>
-          <li>A daily manual Excel process becomes an automatic flow from Slack to dashboard.</li>
-          <li>Every number traces back to an approved, auditable formula.</li>
-          <li>All of August 2026 was backfilled: 15,054 DE rider-days.</li>
-          <li>Live dashboard covering 780+ DE riders and about 5 lakh orders a week, with high-DE-hub and zero-order flags.</li>
-          <li>It costs nothing to run: no paid hosting or database.</li>
-        </ul></div>
-      </div>
-      <div class="impact-row">
-        <div class="impact"><b>780+</b><span>DE riders tracked</span></div>
-        <div class="impact"><b>5 L+</b><span>orders / week monitored</span></div>
-        <div class="impact"><b>950K</b><span>rows filtered daily</span></div>
-        <div class="impact"><b>492 MB → 3 MB</b><span>pre-filter</span></div>
-        <div class="impact"><b>100+</b><span>automated tests</span></div>
-        <div class="impact"><b>₹0</b><span>running cost</span></div>
-      </div>
-      <div class="thumbs" style="grid-template-columns:1fr 1fr">
-        <figure data-full="assets/img/de-rider-7d.webp" data-cap="Last 7 days by day: riders, orders, productivity and flags (amounts blurred)"><img src="assets/img/de-rider-7d.webp" alt="Last-7-days table in the DE Rider MIS dashboard" loading="lazy"><figcaption>Last 7 days by day</figcaption></figure>
-        <figure data-full="assets/img/de-rider-hubs.webp" data-cap="Hub-level view with high-DE flags"><img src="assets/img/de-rider-hubs.webp" alt="Hub-level table in the DE Rider MIS dashboard" loading="lazy"><figcaption>Hub level · high-DE flags</figcaption></figure>
-      </div>
-      <p class="note">Engineering: 23 code files (~11,700 lines), more than 100 automated tests, 66 integrity checks, a CSV parser that handles quoted fields and mixed date formats, Slack request verification and 15 design documents. My role: requirements, data analysis, design, build, testing, documentation and stakeholder sign-off. Status: live in production. The dashboard has seven tabs: last 7 days, hubs, cities, pay structures, monthly, needs attention, and admin &amp; setup.</p>
-      <div class="stack" style="margin-top:12px"><span class="chip">Google Apps Script</span><span class="chip">Google Sheets</span><span class="chip">Slack Events &amp; Web API</span><span class="chip">Node.js</span><span class="chip">HTML / CSS / JS</span><span class="chip">Data modelling</span></div>
     </div>
   </article>
 
-  <!-- Cluster Payout Optimization -->
-  <article class="case reveal">
-    <div class="case-hero" data-full="assets/img/payout-map.webp" data-cap="Network map: delivery-cluster polygons coloured by surge rate">
-      <img src="assets/img/payout-map.webp" alt="India map of delivery-cluster polygons coloured by surge rate" width="1002" height="780">
-      <div class="tags"><span class="tag">Streamlit</span><span class="tag">Geospatial</span><span class="tag">ML</span></div>
-    </div>
-    <div class="case-body">
-      <h3>Cluster Payout Optimization</h3>
-      <p class="pitch">A geospatial cost dashboard that maps every delivery-cluster polygon and its surge rate, finds the hubs where payouts are burning money, and recommends the cheapest fix.</p>
-      <div class="pai">
-        <div><h4>Problem</h4><ul>
-          <li>Riders earn a per-delivery surge of ₹0–₹14, set by the cluster polygon a delivery falls in.</li>
-          <li>Clustering incentives cost about ₹1 crore a month, and where a polygon's rate didn't match its distance from the hub, cost per order crept up.</li>
-          <li>Nobody could see this across 1,400+ hubs and 13,000+ polygons.</li>
-        </ul></div>
-        <div><h4>Approach</h4><ul>
-          <li>BigQuery pulls refreshed daily by a GitHub Actions job.</li>
-          <li>Haversine hub-to-polygon distances and an SOP-compliance check.</li>
-          <li>Shapely point-in-polygon matching of shipments to compute burn per polygon, plus a priority score.</li>
-          <li>"Lower the rate or widen the radius" advice with before/after cost.</li>
-          <li>Anomaly detection (Isolation Forest, LOF) to flag unusual hubs.</li>
-        </ul></div>
-        <div><h4>Impact</h4><ul>
-          <li><b>₹16–17 lakh a month in savings</b> against a ₹20 lakh-a-month reduction target.</li>
-          <li>One map-first view of the whole network, replacing separate Excel, My Maps and notebook steps.</li>
-          <li>Ranked, explainable actions for the operations team.</li>
-        </ul></div>
+  <article class="case">
+    <div class="case-grid">
+      <aside class="facts"><dl>
+        <div><dt>Status</dt><dd><span class="status">Current project · live</span></dd></div>
+        <div><dt>Role</dt><dd>Requirements, design, build, testing, sign-off</dd></div>
+        <div><dt>Stack</dt><dd>Google Apps Script, Sheets, Slack Events &amp; Web API, Node.js</dd></div>
+        <div><dt>Quality</dt><dd>100+ automated tests · 15 design documents</dd></div>
+      </dl></aside>
+      <div>
+        <h3>DE Rider MIS: Delivery Executive cost &amp; productivity</h3>
+        <p class="summary">An automated reporting system that picks up a daily rider file of about 950K rows from Slack, keeps only the Delivery Executive riders, applies approved payout rules and serves managers a role-based dashboard, built entirely on free Google tools.</p>
+        <figure class="shot" data-full="assets/img/de-rider-hubs.webp" data-cap="DE Rider MIS: hub-level view (hub names and amounts blurred)"><img src="assets/img/de-rider-hubs.webp" alt="DE Rider MIS dashboard with KPI cards and hub table" width="1905" height="871"><figcaption>Live dashboard: KPIs and hub-level view (hub names and amounts blurred)</figcaption></figure>
+        <div class="pipeline" aria-label="Data flow">
+          <div><small>01 · Daily</small><b>Slack upload</b><span>~950K-row export</span></div>
+          <div><small>02 · Local</small><b>Streaming filter</b><span>492 MB → ~3 MB</span></div>
+          <div><small>03 · Rules</small><b>Approved formulas</b><span>CPO · MG · proration · burn</span></div>
+          <div><small>04 · Serve</small><b>Role-based dashboard</b><span>Rider · hub · city · month</span></div>
+        </div>
+        <div class="pao">
+          <div><h4>Problem</h4><ul>
+            <li>DE cost and productivity reporting was done by hand in Excel.</li>
+            <li>Daily exports of 146–186 MB, of which only about 0.6% of rows were DE riders, and no history was kept.</li>
+          </ul></div>
+          <div><h4>Approach</h4><ul>
+            <li>Slack intake with file-level and row-level de-duplication.</li>
+            <li>A streaming pre-filter to stay within Apps Script's limits.</li>
+            <li>A rules engine that matches the Excel formulas exactly, with formulas in the sheet that managers can edit.</li>
+            <li>A metric only goes live once its formula is approved.</li>
+          </ul></div>
+          <div><h4>Outcome</h4><ul>
+            <li><b>Live for 780+ riders</b> and about 500K orders a week.</li>
+            <li>Every figure traces back to an approved, auditable formula.</li>
+            <li>Zero running cost; August 2026 fully backfilled (15,054 rider-days).</li>
+          </ul></div>
+        </div>
       </div>
-      <div class="impact-row">
-        <div class="impact"><b>₹16–17 L / mo</b><span>savings achieved</span></div>
-        <div class="impact"><b>13,000+</b><span>polygons analysed</span></div>
-        <div class="impact"><b>Daily</b><span>automated data refresh</span></div>
-      </div>
-      <div class="thumbs">
-        <figure data-full="assets/img/payout-gandalf.webp" data-cap="Automated alerts and priority actions (savings estimates blurred)"><img src="assets/img/payout-gandalf.webp" alt="Analytics page listing alerts and priority actions" loading="lazy"><figcaption>Alerts &amp; priority actions</figcaption></figure>
-        <figure data-full="assets/img/payout-burn.webp" data-cap="Pincode vs cluster payout P&amp;L calculator"><img src="assets/img/payout-burn.webp" alt="Cluster burn calculator page" loading="lazy"><figcaption>Burn calculator</figcaption></figure>
-        <figure data-full="assets/img/rings-2.webp" data-cap="Payout rings around a hub with per-ring rates"><img src="assets/img/rings-2.webp" alt="Map of payout rings around a hub" loading="lazy"><figcaption>Rate rings per hub</figcaption></figure>
-      </div>
-      <div class="stack" style="margin-top:16px"><span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">BigQuery</span><span class="chip">pandas</span><span class="chip">GeoPandas · Shapely</span><span class="chip">Folium</span><span class="chip">scikit-learn · XGBoost · LightGBM</span><span class="chip">DuckDB</span><span class="chip">GitHub Actions</span><span class="chip">Docker</span></div>
     </div>
   </article>
 
-  <!-- DA Rider Portal -->
-  <article class="case reveal">
-    <div class="case-hero" data-full="assets/img/da-portal.webp" data-cap="DA Operations Control Center: overview tab (cost figures blurred)">
-      <img src="assets/img/da-portal.webp" alt="DA Rider Portal overview with KPI cards and charts" width="1333" height="806">
-      <div class="tags"><span class="tag">Google Apps Script</span><span class="tag">BigQuery</span><span class="tag">Automation</span></div>
-    </div>
-    <div class="case-body">
-      <h3>DA Rider Portal: Delivery Ambassador monitoring</h3>
-      <p class="pitch">An automated Gmail → Sheets → web-dashboard pipeline that tracks attendance, productivity, cost per order and de-hiring for Delivery Ambassador riders across four regions of India.</p>
-      <div class="pai">
-        <div><h4>Problem</h4><ul>
-          <li>A daily attendance and productivity email was being turned into pivots by hand.</li>
-          <li>HR rebuilt the monthly payroll attendance file manually.</li>
-          <li>The old cost sheet understated real rider cost by about 60%.</li>
-          <li>Low-productivity and absent riders weren't followed up consistently.</li>
-        </ul></div>
-        <div><h4>Approach</h4><ul>
-          <li>An 8 AM job reads the mail, de-duplicates it and loads Sheets, with BigQuery for delivered and picked orders.</li>
-          <li>A web dashboard with ten tabs: overview, hub, POD, last 7 days, rider CPO, calling list, de-hiring, costing, attendance and fuel payout.</li>
-          <li>A Monday calling list, and regional de-hire drafts that a manager reviews before anything is sent.</li>
-          <li>The payroll workbook is generated in HR's exact format on the 1st of each month.</li>
-        </ul></div>
-        <div><h4>Impact</h4><ul>
-          <li>Daily reporting runs with zero manual steps.</li>
-          <li>Cost per order and month-end projection are visible every day instead of after month close.</li>
-          <li>Real rider cost is now measured correctly; the old file understated it.</li>
-          <li>HR's monthly attendance file is automated.</li>
-        </ul></div>
+  <article class="case">
+    <div class="case-grid">
+      <aside class="facts"><dl>
+        <div><dt>Users</dt><dd>Operations, regional teams, HR</dd></div>
+        <div><dt>Role</dt><dd>Sole builder &amp; owner</dd></div>
+        <div><dt>Stack</dt><dd>Google Apps Script, BigQuery SQL, Sheets, Gmail, Python (pandas, Dash)</dd></div>
+        <div><dt>Scope</dt><dd>250+ riders · 130K+ orders a month</dd></div>
+      </dl></aside>
+      <div>
+        <h3>DA Rider Portal: Delivery Ambassador monitoring</h3>
+        <p class="summary">An automated Gmail → Sheets → web-dashboard pipeline that tracks attendance, productivity, cost per order and de-hiring for Delivery Ambassador riders across four regions.</p>
+        <figure class="shot crop" data-full="assets/img/da-portal.webp" data-cap="DA Operations Control Center: overview (cost figures blurred)"><img src="assets/img/da-portal.webp" alt="DA Rider Portal overview with KPI cards and charts" width="1333" height="806"><figcaption>Overview tab: KPIs, 7-day trend and monthly cost (cost figures blurred)</figcaption></figure>
+        <div class="pao">
+          <div><h4>Problem</h4><ul>
+            <li>A daily alert email was turned into pivots by hand.</li>
+            <li>HR rebuilt the payroll attendance file manually every month.</li>
+            <li>The old cost sheet understated real cost by about 60%.</li>
+          </ul></div>
+          <div><h4>Approach</h4><ul>
+            <li>8 AM automated ingest from email and BigQuery.</li>
+            <li>A ten-tab dashboard: hub, POD, rider CPO, calling list, de-hiring, costing.</li>
+            <li>Monday calling lists, plus manager-reviewed de-hire drafts.</li>
+          </ul></div>
+          <div><h4>Outcome</h4><ul>
+            <li><b>Zero manual steps</b> in daily reporting.</li>
+            <li>Cost per order and month-end projection visible every day.</li>
+            <li>HR's monthly payroll attendance file generated automatically.</li>
+          </ul></div>
+        </div>
       </div>
-      <div class="impact-row">
-        <div class="impact"><b>250+</b><span>riders tracked</span></div>
-        <div class="impact"><b>1.3 L+</b><span>orders / month</span></div>
-        <div class="impact"><b>0</b><span>manual steps per day</span></div>
-      </div>
-      <div class="flow" aria-label="Automation schedule">
-        <div><small>Daily 8 AM</small><b>Ingest</b><span>Mail + BigQuery into Sheets</span></div>
-        <div><small>Always on</small><b>Dashboard</b><span>KPIs, hub &amp; rider views</span></div>
-        <div><small>Monday</small><b>Calling list</b><span>Riders under 30 orders/day</span></div>
-        <div><small>Monday noon</small><b>De-hire drafts</b><span>Manager-reviewed</span></div>
-        <div><small>1st of month</small><b>Payroll file</b><span>HR format, auto-built</span></div>
-        <div><small>On demand</small><b>Diagnostics</b><span>One-click health check</span></div>
-      </div>
-      <div class="stack" style="margin-top:16px"><span class="chip">Google Apps Script</span><span class="chip">BigQuery SQL</span><span class="chip">Google Sheets</span><span class="chip">Gmail automation</span><span class="chip">Python · pandas</span><span class="chip">Plotly Dash</span><span class="chip">HTML / CSS</span></div>
     </div>
   </article>
 
-  <!-- Geo Intelligence Portal -->
-  <article class="case reveal">
-    <div class="case-hero" data-full="assets/img/rings-1.webp" data-cap="Generated payout rings around a hub, clipped to pincode boundaries">
-      <img src="assets/img/rings-1.webp" alt="Generated payout polygons around a hub with per-ring rates" width="1200" height="856">
-      <div class="tags"><span class="tag">Streamlit</span><span class="tag">Geospatial</span><span class="tag">LLM assistant</span></div>
-    </div>
-    <div class="case-body">
-      <h3>Geo Intelligence Portal (Clustering Web App)</h3>
-      <p class="pitch">A six-step pipeline that builds distance-based payout polygons around each hub and compares profit and loss per shipment between pincode-level and cluster-level payout.</p>
-      <div class="pai">
-        <div><h4>Problem</h4><ul>
-          <li>Building payout polygons for hubs meant hopping between Jupyter, Google My Maps and Excel.</li>
-          <li>One clustering run took 4–5 hours.</li>
-          <li>Coverage spans 2,100+ pincodes.</li>
-        </ul></div>
-        <div><h4>Approach</h4><ul>
-          <li>Haversine or OSRM road distance assigns each pincode a payout slab.</li>
-          <li>Concentric distance rings are clipped to pincode boundaries and can be edited by dragging on a map.</li>
-          <li>60 days of shipments from BigQuery are matched to polygons with a spatial index (STRtree).</li>
-          <li>Each hub × pincode gets a saving-vs-burning P&amp;L, and you can ask "why is this hub burning?" in plain English.</li>
-        </ul></div>
-        <div><h4>Impact</h4><ul>
-          <li><b>4–5 hours → 30–60 minutes</b> per clustering run.</li>
-          <li>One web app replaced three tools.</li>
-          <li>Exports to CSV, Excel and KML for field teams.</li>
-        </ul></div>
+  <article class="case">
+    <div class="case-grid">
+      <aside class="facts"><dl>
+        <div><dt>Outcome</dt><dd>4–5 h → 30–60 min per run</dd></div>
+        <div><dt>Role</dt><dd>Sole analyst &amp; developer</dd></div>
+        <div><dt>Stack</dt><dd>Python, Streamlit, GeoPandas, Shapely, OSRM, BigQuery, DuckDB</dd></div>
+        <div><dt>Scope</dt><dd>2,100+ postal codes</dd></div>
+      </dl></aside>
+      <div>
+        <h3>Geo Intelligence Portal</h3>
+        <p class="summary">A six-step pipeline that builds distance-based payout polygons around each hub and compares per-shipment profit and loss between postal-code-level and cluster-level payout, replacing a workflow split across Jupyter, Google My Maps and Excel.</p>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/rings-1.webp" data-cap="Generated payout rings around a hub, clipped to postal-code boundaries"><img src="assets/img/rings-1.webp" alt="Payout rings around a hub" loading="lazy"><figcaption>Generated payout rings, clipped to postal codes</figcaption></figure>
+          <figure class="shot" data-full="assets/img/geo-ingestion.webp" data-cap="Pipeline: step 1, data ingestion"><img src="assets/img/geo-ingestion.webp" alt="Data ingestion step" loading="lazy"><figcaption>Six-step pipeline: ingestion</figcaption></figure>
+        </div>
+        <div class="pao">
+          <div><h4>Problem</h4><ul>
+            <li>Each clustering run took 4–5 hours across three separate tools.</li>
+          </ul></div>
+          <div><h4>Approach</h4><ul>
+            <li>Haversine or OSRM road distances assign payout slabs.</li>
+            <li>Concentric rings clipped to postal-code boundaries, with a drag-to-edit map editor.</li>
+            <li>A spatial index matches 60 days of shipments to polygons.</li>
+          </ul></div>
+          <div><h4>Outcome</h4><ul>
+            <li><b>30–60 minutes per run</b>, about 85% faster.</li>
+            <li>One tool instead of three, with CSV, Excel and KML exports.</li>
+          </ul></div>
+        </div>
       </div>
-      <div class="impact-row">
-        <div class="impact"><b>~85%</b><span>time saved per run</span></div>
-        <div class="impact"><b>2,100+</b><span>pincodes covered</span></div>
-        <div class="impact"><b>3 → 1</b><span>tools consolidated</span></div>
-      </div>
-      <div class="thumbs">
-        <figure data-full="assets/img/geo-ingestion.webp" data-cap="Step 1: data ingestion"><img src="assets/img/geo-ingestion.webp" alt="Data ingestion screen" loading="lazy"><figcaption>Step 1 · ingestion</figcaption></figure>
-        <figure data-full="assets/img/geo-pipeline.webp" data-cap="Step 4: shipments from BigQuery"><img src="assets/img/geo-pipeline.webp" alt="Shipment analysis screen" loading="lazy"><figcaption>Step 4 · shipments</figcaption></figure>
-        <figure data-full="assets/img/geo-live.webp" data-cap="Live clusters with scheduled auto-refresh"><img src="assets/img/geo-live.webp" alt="Live clusters screen" loading="lazy"><figcaption>Live clusters</figcaption></figure>
-      </div>
-      <div class="stack" style="margin-top:16px"><span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">GeoPandas · Shapely</span><span class="chip">Folium · Leaflet</span><span class="chip">OSRM</span><span class="chip">BigQuery</span><span class="chip">DuckDB</span><span class="chip">Groq Llama 3</span></div>
     </div>
   </article>
-
-  <div class="sec-head" style="margin-top:40px"><div><div class="mono">Earlier work</div></div></div>
-  <div class="mini">
-    <div class="card reveal"><h3>Intraday stock-price prediction</h3><p>MBA project at Pondicherry University. LSTM model on historical OHLC data with a Flask front end.</p></div>
-    <div class="card reveal"><h3>Business lead extraction</h3><p>Zenbourg mentorship. Ran a Python automation that found companies with no website and produced lead lists for website-building outreach.</p></div>
-    <div class="card reveal"><h3>Stress detection from images</h3><p>B.Sc final-year project using OpenCV features and a KNN classifier.</p></div>
-  </div>
 </div>
 </section>
 
-<!-- EXPERIENCE -->
 <section id="experience">
 <div class="wrap">
-  <div class="sec-head"><div><div class="mono">Experience</div><h2>Where I've worked</h2></div></div>
-  <div class="xp">
-    <div class="job reveal">
-      <div class="when">Jan 2026 – Present</div>
+  <div class="sec-head"><div class="eyebrow">Experience</div><div><h2>Where I've worked</h2></div></div>
+  <div class="rows">
+    <div class="role">
+      <div class="when">Jul 2025 — Present</div>
       <div>
-        <h3>MIS Analyst, Strategy, Planning &amp; Analytics <span class="promo">Converted to permanent</span></h3><div class="org">Shadowfax Technologies · Bengaluru · Full-time</div>
-        <ul>
-          <li>Across both Shadowfax roles, built the four tools above: DE Rider MIS, the DA Rider Portal, Cluster Payout Optimization and the Geo Intelligence Portal.</li>
-          <li>Delivered ₹16–17 lakh a month in payout savings through analytics-driven cluster rate optimisation.</li>
-          <li>Cut a clustering run from 4–5 hours to 30–60 minutes.</li>
-          <li>Maintain SQL / BigQuery pipelines and automated KPI dashboards for operations, finance and HR.</li>
-          <li>Fraud analytics: flagged misuse of delivery credentials for bonuses and escalated the cases.</li>
-        </ul>
+        <h3>Shadowfax Technologies</h3><div class="org">Bengaluru · Last-mile logistics</div>
+        <div class="sub">
+          <h4>MIS Analyst, Strategy, Planning &amp; Analytics <span>· Jan 2026 – Present</span></h4>
+          <ul>
+            <li>Built the four tools above, covering payout optimisation, DE and DA rider reporting, and geospatial clustering.</li>
+            <li>Delivered INR 1.6–1.7M (≈ US$18–20K) a month in payout savings and cut a clustering run from 4–5 hours to 30–60 minutes.</li>
+            <li>Maintain SQL / BigQuery reporting and KPI dashboards for operations, finance and HR. Flagged and escalated misuse of delivery credentials for bonuses.</li>
+          </ul>
+        </div>
+        <div class="sub">
+          <h4>MIS Executive <span>· Jul 2025 – Jan 2026 · contract, then converted to a permanent role</span></h4>
+          <ul>
+            <li>Prepared daily and weekly MIS reports and dashboards, and analysed logistics data for performance and KPIs.</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="job reveal">
-      <div class="when">Jul 2025 – Jan 2026</div>
+    <div class="role">
+      <div class="when">Jul 2026 — Present</div>
       <div>
-        <h3>MIS Executive</h3><div class="org">Shadowfax Technologies · Bengaluru · Contract (via Avsar)</div>
-        <ul>
-          <li>Prepared and managed daily and weekly MIS reports and dashboards.</li>
-          <li>Analysed logistics and operational data for performance insights.</li>
-          <li>Supported internal teams with actionable reports and KPIs.</li>
-        </ul>
+        <h3>Data Analytics Intern</h3><div class="org">Sabudh Foundation in collaboration with STPI · Online, alongside full-time role</div>
+        <ul><li>Structured programme (DA Batch 3): SQL, Python, Power BI, PySpark, Dataiku, machine learning and forecasting, NLP, applied LLMs and agentic engineering, with a capstone project.</li></ul>
       </div>
     </div>
-    <div class="job reveal">
-      <div class="when">Jul 2026 – Present</div>
+    <div class="role">
+      <div class="when">Jun — Jul 2025</div>
       <div>
-        <h3>Data Analytics Intern</h3><div class="org">Sabudh Foundation in collaboration with STPI · Online · 6-month programme, alongside my role at Shadowfax</div>
+        <h3>Short engagements</h3>
         <ul>
-          <li>Data Analytics batch (DA Batch 3) of a structured programme with live classes, assignments and a capstone project.</li>
-          <li>Curriculum in progress: SQL, Python, Power BI, PySpark, Dataiku (data prep, ML, MLOps and RAG workflows), Machine Learning and time-series forecasting, NLP, Applied LLMs, Agentic Engineering and Generative AI tools.</li>
+          <li><b>Intellipaat Software Solutions</b>, Business Development Trainee (Jul 2025, 15 days): EdTech inside-sales training.</li>
+          <li><b>Bajaj Allianz General Insurance</b>, Sales Intern (Jun 2025, 1 month): selected through an on-campus interview at Pondicherry University; worked toward a health-insurance sales target.</li>
+          <li><b>Zenbourg</b>, Business Development mentorship (Jun 2025, 1 month): ran a Python automation that built lead lists of companies without websites.</li>
         </ul>
+        <p class="note">Other offers received in 2025: Unlox Academy (Business Development Associate), Acmegrade (Business Development Intern) and Vijesha IT Services (Inside Sales Specialist).</p>
       </div>
     </div>
-    <div class="job reveal">
-      <div class="when">Jul 2025 · 15 days</div>
-      <div>
-        <h3>Business Development Trainee</h3><div class="org">Intellipaat Software Solutions · Bengaluru</div>
-        <ul>
-          <li>EdTech inside-sales training in course pitching and handling customer objections, before moving to Shadowfax as MIS Executive.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="job reveal">
-      <div class="when">Jun 2025 · 1 month</div>
-      <div>
-        <h3>Sales Intern</h3><div class="org">Bajaj Allianz General Insurance · Vijayawada · Campus selection at Pondicherry University</div>
-        <ul>
-          <li>Selected through an on-campus interview for an insurance sales internship.</li>
-          <li>Sold health-insurance policies against a target of three policies, on a track toward a manager role.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="job reveal">
-      <div class="when">Jun 2025 · 1 month</div>
-      <div>
-        <h3>Business Development Mentee</h3><div class="org">Zenbourg · Online mentorship</div>
-        <ul>
-          <li>Ran a Python automation script that collected data on companies without a website and handed the cleaned lead lists to the business-development team for website-building outreach.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="job reveal">
-      <div class="when">Jun 2024 – Aug 2024</div>
+    <div class="role">
+      <div class="when">Jun — Aug 2024</div>
       <div>
         <h3>Banking Intern</h3><div class="org">Indian Overseas Bank · Puducherry</div>
-        <ul>
-          <li>Processed KYC and account-opening data on the Finacle core banking system, including a bulk onboarding drive.</li>
-          <li>Corrected and updated existing customer records to improve data accuracy.</li>
-        </ul>
+        <ul><li>Processed KYC and account-opening data on Finacle for a bulk onboarding drive, and corrected customer records.</li></ul>
       </div>
     </div>
   </div>
 </div>
 </section>
 
-<section id="offers" style="padding-top:8px">
-<div class="wrap">
-  <div class="sec-head"><div><div class="mono">Offers &amp; selections</div><h2>Offers I've received</h2><p>Formal offer and internship letters addressed to me. The letters stay private because they contain compensation and personal details.</p></div></div>
-  <div class="offers">
-    <div class="offer reveal"><div><b>Shadowfax Technologies</b><span>MIS Analyst, Strategy, Planning &amp; Analytics (full-time)</span></div><time>Jan 2026</time></div>
-    <div class="offer reveal"><div><b>Shadowfax Technologies (via Avsar)</b><span>MIS Executive (contract)</span></div><time>Jul 2025</time></div>
-    <div class="offer reveal"><div><b>Sabudh Foundation × STPI</b><span>Data Analytics internship, 6 months, online (ongoing)</span></div><time>Jul 2026</time></div>
-    <div class="offer reveal"><div><b>Bajaj Allianz General Insurance</b><span>Sales Intern, campus selection at Pondicherry University</span></div><time>May 2025</time></div>
-    <div class="offer reveal"><div><b>Zenbourg</b><span>International Business Development Intern</span></div><time>May 2025</time></div>
-    <div class="offer reveal"><div><b>Intellipaat Software Solutions</b><span>Business Development Trainee, Bengaluru (joined)</span></div><time>Jul 2025</time></div>
-    <div class="offer reveal"><div><b>Unlox Academy</b><span>Business Development Associate (internship)</span></div><time>Jul 2025</time></div>
-    <div class="offer reveal"><div><b>Acmegrade</b><span>Business Development Intern</span></div><time>Jul 2025</time></div>
-    <div class="offer reveal"><div><b>Vijesha IT Services</b><span>Inside Sales Specialist</span></div><time>Jul 2025</time></div>
-  </div>
-</div>
-</section>
-
-<!-- SKILLS -->
 <section id="skills">
 <div class="wrap">
-  <div class="sec-head"><div><div class="mono">Skills</div><h2>What I work with</h2><p>Each group links to the case study or certificate that shows it.</p></div></div>
-  <div class="skills">
-    <div class="card skill reveal"><h4>SQL &amp; data</h4><p>HackerRank SQL Basic + Intermediate; daily BigQuery work</p><div class="stack"><span class="chip">SQL</span><span class="chip">BigQuery</span><span class="chip">DuckDB</span><span class="chip">SQLite</span><span class="chip">ETL</span></div></div>
-    <div class="card skill reveal"><h4>Python analytics</h4><p>All three case studies</p><div class="stack"><span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">GeoPandas</span><span class="chip">Shapely</span><span class="chip">scikit-learn</span></div></div>
-    <div class="card skill reveal"><h4>BI &amp; dashboards</h4><p>Power BI certificate (Microsoft Press)</p><div class="stack"><span class="chip">Power BI</span><span class="chip">Looker Studio</span><span class="chip">Streamlit</span><span class="chip">Plotly / Dash</span><span class="chip">Folium</span></div></div>
-    <div class="card skill reveal"><h4>Automation</h4><p>DA Rider Portal</p><div class="stack"><span class="chip">Google Apps Script</span><span class="chip">Google Sheets</span><span class="chip">Gmail API</span><span class="chip">GitHub Actions</span></div></div>
-    <div class="card skill reveal"><h4>Business analysis</h4><p>IIBA-accredited Business Analysis Foundations</p><div class="stack"><span class="chip">KPI design</span><span class="chip">Root-cause analysis</span><span class="chip">Cost-benefit</span><span class="chip">MIS reporting</span><span class="chip">Excel</span></div></div>
-    <div class="card skill reveal"><h4>Deploy &amp; tools</h4><p>Cluster Payout Optimization</p><div class="stack"><span class="chip">Git</span><span class="chip">Docker</span><span class="chip">Streamlit Cloud</span><span class="chip">Google Cloud Run</span></div></div>
+  <div class="sec-head"><div class="eyebrow">Skills</div><div><h2>Toolkit</h2></div></div>
+  <div class="rows">
+    <div class="skill"><h4>Data &amp; SQL</h4><p>SQL, Google BigQuery, DuckDB, SQLite, ETL pipelines, data modelling</p></div>
+    <div class="skill"><h4>Python</h4><p>pandas, NumPy, GeoPandas, Shapely, scikit-learn, Streamlit, Plotly / Dash, Folium</p></div>
+    <div class="skill"><h4>BI &amp; reporting</h4><p>Power BI, Looker Studio, Advanced Excel, Google Sheets, KPI and MIS reporting</p></div>
+    <div class="skill"><h4>Automation</h4><p>Google Apps Script, Gmail and Slack APIs, GitHub Actions, Git, Docker</p></div>
+    <div class="skill"><h4>Analysis</h4><p>Cost-benefit and root-cause analysis, anomaly detection, logistics and payout analytics</p></div>
   </div>
 </div>
 </section>
 
-<!-- CREDENTIALS -->
-<section id="credentials">
+<section id="certificates">
 <div class="wrap">
-  <div class="sec-head">
-    <div><div class="mono">Certificates</div><h2>Proof, not just claims</h2><p>Click any certificate to see it full size. Where the issuer has a public verification page, "Verify" opens it.</p></div>
-    <div class="filters" role="group" aria-label="Filter certificates">
-      <button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="data">Data &amp; SQL</button><button aria-pressed="false" data-f="biz">Business &amp; finance</button><button aria-pressed="false" data-f="soft">Professional</button>
-    </div>
-  </div>
+  <div class="sec-head"><div class="eyebrow">Certificates</div><div><h2>Credentials</h2><p>Click a certificate to view it. Where the issuer offers a public credential page, a verification link is included.</p></div></div>
   <div class="certs" id="certs"></div>
-  <div class="card textcreds reveal">
-    <h3>Also completed: certificate images coming soon</h3>
-    <ul class="linklist">
-      <li><span>Bloomberg Market Concepts (BMC)</span><span class="meta">Bloomberg</span></li>
-      <li><span>Bloomberg Finance Fundamentals</span><span class="meta">Bloomberg</span></li>
-      <li><span>Bloomberg ESG</span><span class="meta">Bloomberg</span></li>
-      <li><span>Advanced Microsoft Excel</span><span class="meta">Professional certification</span></li>
-      <li><span>Internship completion: Indian Overseas Bank</span><span class="meta">IOB, Puducherry</span></li>
-    </ul>
-  </div>
-  <div class="card textcreds reveal">
-    <h3>More LinkedIn Learning certificates</h3>
-    <p style="margin-bottom:8px">Professional-skills courses. Each link opens the public credential page on LinkedIn.</p>
-    <ul class="linklist">
-      <li><span>Leadership Principles for Emerging Leaders with Bill George</span><a class="verify" href="https://www.linkedin.com/learning/certificates/3f6fdeacf7588274e23bff3564ba8917c71dcdfc9f51a7eec22056479d85272c" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>How to Boost Your Productivity with AI Tools</span><a class="verify" href="https://www.linkedin.com/learning/certificates/03b7505d933fca96b4b2a5652b289be82fff824d55c0b8e4325c8e1c5f03fe3a" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Developing Organizational Awareness</span><a class="verify" href="https://www.linkedin.com/learning/certificates/3e8da043c471268855125447d1dc973b9707430c6c6258d2da13369a15c31a3a" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Increase Visibility to Advance Your Career</span><a class="verify" href="https://www.linkedin.com/learning/certificates/65332cfb9d8defd31669a5a7d808c9a363ac3c5645eb771ee7c58422519b13ef" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Foundations of Diversity, Equity, Inclusion and Belonging</span><a class="verify" href="https://www.linkedin.com/learning/certificates/ec60713908f23fcf2c8f3a2b3cd0838386f09d891fee142394ab9c6f38e11e10" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Leadership Foundations</span><a class="verify" href="https://www.linkedin.com/learning/certificates/a86e0c0f63d53d81422096fdb50a0b1d9f198b3dc980e2f4fdbf79c64e4d71cd" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Improving Your Listening Skills</span><a class="verify" href="https://www.linkedin.com/learning/certificates/591671279eaa677596e9b231cc1de38782eac6461ea1911fbe1d7b4b4a5c1a26" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Skills to Build Stronger Work Relationships</span><a class="verify" href="https://www.linkedin.com/learning/certificates/078c166e26050834b777d78b0512723754df7fb6a7f3781ba404d399d8c2fffb" target="_blank" rel="noopener">Verify ↗</a></li>
-      <li><span>Developing Your Emotional Intelligence</span><a class="verify" href="https://www.linkedin.com/learning/certificates/99bfb4421a476cc236f9a67e0ab2fe9e130ede2d749608157e0e11ef748fdbae" target="_blank" rel="noopener">Verify ↗</a></li>
-    </ul>
-  </div>
+  <details class="more">
+    <summary>More certificates (15)</summary>
+    <ul class="list" id="morecerts"></ul>
+  </details>
 </div>
 </section>
 
-<!-- EDUCATION -->
 <section id="education">
 <div class="wrap">
-  <div class="sec-head"><div><div class="mono">Education</div><h2>Background</h2></div></div>
-  <div class="edu">
-    <div class="card reveal"><h3>MBA, Banking Technology</h3><p>Pondicherry University · 2023 – 2025</p></div>
-    <div class="card reveal"><h3>B.Sc, Computer Science</h3><p>Andhra Loyola College, Vijayawada · 2019 – 2022</p></div>
-    <div class="card reveal"><h3>NCC cadet</h3><p>National Cadet Corps · 2019 – 2022. Led cadet teams in training and community drives.</p></div>
+  <div class="sec-head"><div class="eyebrow">Education</div><div><h2>Education</h2></div></div>
+  <div class="rows">
+    <div class="role"><div class="when">2023 — 2025</div><div><h3>MBA, Banking Technology</h3><div class="org">Pondicherry University</div></div></div>
+    <div class="role"><div class="when">2019 — 2022</div><div><h3>B.Sc, Computer Science</h3><div class="org">Andhra Loyola College, Vijayawada · NCC cadet</div></div></div>
   </div>
 </div>
 </section>
 
-<section id="contact">
+<section class="contact" id="contact">
 <div class="wrap">
-  <div class="contact reveal">
+  <div class="contact-inner">
     <div>
-      <div class="mono" style="color:var(--lime)">Contact</div>
-      <h2>Let's talk</h2>
-      <p>Looking for Data Analyst, Business Analyst and MIS Analyst roles in Bengaluru or Hyderabad. Notice period: 15 days. Email is the fastest way to reach me.</p>
+      <div class="eyebrow" style="margin-bottom:14px">Contact</div>
+      <h2>Let's talk.</h2>
+      <p>I'm looking for Data Analyst, Business Analyst and MIS Analyst roles in Bengaluru or Hyderabad. Email is the fastest way to reach me.</p>
     </div>
-    <div class="contact-links">
+    <div class="links">
       <a href="mailto:rk7326181@gmail.com">Email <span>rk7326181@gmail.com</span></a>
-      <a href="https://linkedin.com/in/trk7085" target="_blank" rel="noopener">LinkedIn <span>in/trk7085</span></a>
-      <a href="https://github.com/rk7326181-lab" target="_blank" rel="noopener">GitHub <span>rk7326181-lab</span></a>
-      <a href="assets/Ravindra_Kumar_Resume.pdf" target="_blank" rel="noopener">Résumé <span>PDF, 1 page</span></a>
+      <a href="https://linkedin.com/in/trk7085" target="_blank" rel="noopener">LinkedIn <span>in/trk7085 ↗</span></a>
+      <a href="https://github.com/rk7326181-lab" target="_blank" rel="noopener">GitHub <span>rk7326181-lab ↗</span></a>
+      <a href="assets/Ravindra_Kumar_Resume.pdf" target="_blank" rel="noopener">Résumé <span>PDF, 1 page ↗</span></a>
     </div>
   </div>
 </div>
 </section>
 </main>
 
-<footer><div class="wrap">© 2026 T. Ravindra Kumar · Screenshots come from internal tools with company data removed.</div></footer>
+<footer><div class="wrap">© 2026 Tangellamudi Ravindra Kumar. Screenshots are from internal tools with company data removed.</div></footer>
 
 <dialog id="lightbox" aria-label="Enlarged image"><img alt=""><p></p></dialog>
 
 <script>
-var CERTS = [
-  {f:"data", img:"hr-sql-intermediate", title:"SQL (Intermediate)", issuer:"HackerRank", date:"Dec 2025", verify:"https://www.hackerrank.com/certificates/0ee974eaafb8"},
-  {f:"data", img:"hr-sql-basic", title:"SQL (Basic)", issuer:"HackerRank", date:"Nov 2025", verify:"https://www.hackerrank.com/certificates/b9b651b6fa4c"},
-  {f:"data", img:"li-powerbi", title:"Complete Guide to Power BI for Data Analysts by Microsoft Press", issuer:"LinkedIn Learning · 7 h 14 m", date:"Oct 2024", verify:"https://www.linkedin.com/learning/certificates/09a2aa662ebe801fce37b9681d96f9a67717fd03aea3780e15bafbd26047b051"},
-  {f:"data", img:"li-data-analytics", title:"Learning Data Analytics: 1 Foundations", issuer:"LinkedIn Learning · 3 h 29 m", date:"Jul 2025", verify:"https://www.linkedin.com/learning/certificates/61c7eb03847ebc7affb90988342e885d8f953b06c3bf1ff64c19c206c6c9eb87"},
-  {f:"data", img:"simplilearn-ml", title:"Machine Learning", issuer:"Simplilearn SkillUp · code 8038053", date:"Mar 2025", verify:""},
-  {f:"data", img:"li-nontech-ds", title:"The Non-Technical Skills of Effective Data Scientists", issuer:"LinkedIn Learning · NASBA CPE", date:"Jul 2025", verify:"https://www.linkedin.com/learning/certificates/7375943f9b10df941a3ba9a23326446015bd198ec4246cabc98a57091245686a"},
-  {f:"biz", img:"li-business-analysis", title:"Business Analysis Foundations", issuer:"LinkedIn Learning · IIBA-accredited (2 CDUs)", date:"Jul 2025", verify:"https://www.linkedin.com/learning/certificates/78089face562d83c47fbe6ce8d16ccd390985fca1cdd10b5f046707c70d06857"},
-  {f:"biz", img:"ugc-net", title:"UGC-NET December 2024: Management (017), qualified for Ph.D. admission", issuer:"National Testing Agency · e-cert 24D/03/073235", date:"Issued Mar 2025", verify:""},
-  {f:"biz", img:"nism-sebi", title:"SEBI Investor Certification Examination (49/50)", issuer:"SEBI · NISM", date:"Mar 2025 · valid to Mar 2027", verify:""},
-  {f:"soft", img:"li-manager", title:"Becoming a Manager: Professional Certificate", issuer:"LinkedIn Learning · 10 h 5 m path", date:"Dec 2024", verify:"https://www.linkedin.com/learning/certificates/db06549b780c4549438970d5f19d6cf927ad4df9ca5ea3d27faf29eb107da62f"},
-  {f:"soft", img:"li-communication", title:"Communication Foundations", issuer:"LinkedIn Learning", date:"Nov 2024", verify:"https://www.linkedin.com/learning/certificates/e45c0358a78e376dc0a14e6bcc74fcab6106ff477ba71d1ff7772d05a3959aa7"},
-  {f:"soft", img:"li-innovation", title:"Building Your Innovation Skills", issuer:"LinkedIn Learning", date:"Dec 2024", verify:"https://www.linkedin.com/learning/certificates/3fb385c071d6fabe2c3bf8561dd13b4b629e107ba8049ab8f639d5efa5264e00"}
+var FEATURED = [
+  {img:"hr-sql-intermediate", title:"SQL (Intermediate)", meta:"HackerRank · Dec 2025", verify:"https://www.hackerrank.com/certificates/0ee974eaafb8"},
+  {img:"hr-sql-basic", title:"SQL (Basic)", meta:"HackerRank · Nov 2025", verify:"https://www.hackerrank.com/certificates/b9b651b6fa4c"},
+  {img:"li-powerbi", title:"Power BI for Data Analysts (Microsoft Press)", meta:"LinkedIn Learning · Oct 2024", verify:"https://www.linkedin.com/learning/certificates/09a2aa662ebe801fce37b9681d96f9a67717fd03aea3780e15bafbd26047b051"},
+  {img:"li-business-analysis", title:"Business Analysis Foundations (IIBA-accredited)", meta:"LinkedIn Learning · Jul 2025", verify:"https://www.linkedin.com/learning/certificates/78089face562d83c47fbe6ce8d16ccd390985fca1cdd10b5f046707c70d06857"},
+  {img:"li-data-analytics", title:"Learning Data Analytics: 1 Foundations", meta:"LinkedIn Learning · Jul 2025", verify:"https://www.linkedin.com/learning/certificates/61c7eb03847ebc7affb90988342e885d8f953b06c3bf1ff64c19c206c6c9eb87"},
+  {img:"simplilearn-ml", title:"Machine Learning", meta:"Simplilearn · Mar 2025 · code 8038053", verify:""},
+  {img:"nism-sebi", title:"SEBI Investor Certification (49/50)", meta:"SEBI · NISM · Mar 2025", verify:""},
+  {img:"ugc-net", title:"UGC-NET Dec 2024, Management (Ph.D. admission)", meta:"National Testing Agency · Mar 2025", verify:""}
+];
+var LI = "https://www.linkedin.com/learning/certificates/";
+var MORE = [
+  ["The Non-Technical Skills of Effective Data Scientists", LI+"7375943f9b10df941a3ba9a23326446015bd198ec4246cabc98a57091245686a"],
+  ["Becoming a Manager: Professional Certificate", LI+"db06549b780c4549438970d5f19d6cf927ad4df9ca5ea3d27faf29eb107da62f"],
+  ["Communication Foundations", LI+"e45c0358a78e376dc0a14e6bcc74fcab6106ff477ba71d1ff7772d05a3959aa7"],
+  ["Building Your Innovation Skills", LI+"3fb385c071d6fabe2c3bf8561dd13b4b629e107ba8049ab8f639d5efa5264e00"],
+  ["Leadership Principles for Emerging Leaders", LI+"3f6fdeacf7588274e23bff3564ba8917c71dcdfc9f51a7eec22056479d85272c"],
+  ["How to Boost Your Productivity with AI Tools", LI+"03b7505d933fca96b4b2a5652b289be82fff824d55c0b8e4325c8e1c5f03fe3a"],
+  ["Developing Organizational Awareness", LI+"3e8da043c471268855125447d1dc973b9707430c6c6258d2da13369a15c31a3a"],
+  ["Increase Visibility to Advance Your Career", LI+"65332cfb9d8defd31669a5a7d808c9a363ac3c5645eb771ee7c58422519b13ef"],
+  ["Foundations of Diversity, Equity, Inclusion and Belonging", LI+"ec60713908f23fcf2c8f3a2b3cd0838386f09d891fee142394ab9c6f38e11e10"],
+  ["Leadership Foundations", LI+"a86e0c0f63d53d81422096fdb50a0b1d9f198b3dc980e2f4fdbf79c64e4d71cd"],
+  ["Improving Your Listening Skills", LI+"591671279eaa677596e9b231cc1de38782eac6461ea1911fbe1d7b4b4a5c1a26"],
+  ["Skills to Build Stronger Work Relationships", LI+"078c166e26050834b777d78b0512723754df7fb6a7f3781ba404d399d8c2fffb"],
+  ["Developing Your Emotional Intelligence", LI+"99bfb4421a476cc236f9a67e0ab2fe9e130ede2d749608157e0e11ef748fdbae"],
+  ["Bloomberg Market Concepts · Finance Fundamentals · ESG", ""],
+  ["Advanced Microsoft Excel", ""]
 ];
 (function(){
-  var root=document.documentElement, btn=document.getElementById('theme');
+  var root=document.documentElement;
   try{var t=localStorage.getItem('theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
-  btn.addEventListener('click',function(){
+  document.getElementById('theme').addEventListener('click',function(){
     var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);
     var next=dark?'light':'dark'; root.setAttribute('data-theme',next);
     try{localStorage.setItem('theme',next);}catch(e){}
   });
-
-  var grid=document.getElementById('certs');
-  CERTS.forEach(function(c){
-    var el=document.createElement('article'); el.className='cert'; el.dataset.f=c.f;
-    var src='assets/certs/'+c.img+'.webp';
-    el.innerHTML='<button class="thumb" data-full="'+src+'" data-cap="'+c.title.replace(/"/g,'&quot;')+' · '+c.issuer+'" aria-label="Enlarge certificate: '+c.title.replace(/"/g,'&quot;')+'"><img src="'+src+'" alt="Certificate: '+c.title.replace(/"/g,'&quot;')+'" loading="lazy"></button>'+
-      '<div class="body"><h3>'+c.title+'</h3><div class="meta">'+c.issuer+'</div><div class="meta">'+c.date+'</div>'+
-      '<div class="row">'+(c.verify?'<span class="verified">✓ Verifiable</span><a class="verify" href="'+c.verify+'" target="_blank" rel="noopener">Verify ↗</a>':'<span class="meta">Certificate image above</span>')+'</div></div>';
-    grid.appendChild(el);
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
+  var g=document.getElementById('certs');
+  FEATURED.forEach(function(c){
+    var src='assets/certs/'+c.img+'.webp', el=document.createElement('div'); el.className='cert';
+    el.innerHTML='<button data-full="'+src+'" data-cap="'+esc(c.title)+'" aria-label="View certificate: '+esc(c.title)+'"><img src="'+src+'" alt="'+esc(c.title)+' certificate" loading="lazy"></button>'+
+      '<h3>'+esc(c.title)+'</h3><div class="meta">'+esc(c.meta)+'</div>'+(c.verify?'<a href="'+c.verify+'" target="_blank" rel="noopener">Verify credential ↗</a>':'');
+    g.appendChild(el);
   });
-  document.querySelectorAll('.filters button').forEach(function(b){
-    b.addEventListener('click',function(){
-      document.querySelectorAll('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
-      grid.querySelectorAll('.cert').forEach(function(c){c.hidden=!(b.dataset.f==='all'||c.dataset.f===b.dataset.f);});
-    });
+  var m=document.getElementById('morecerts');
+  MORE.forEach(function(c){
+    var li=document.createElement('li');
+    li.innerHTML='<span>'+esc(c[0])+'</span>'+(c[1]?'<a href="'+c[1]+'" target="_blank" rel="noopener">Verify ↗</a>':'<span>Certificate on request</span>');
+    m.appendChild(li);
   });
-
   var lb=document.getElementById('lightbox'), img=lb.querySelector('img'), cap=lb.querySelector('p');
   document.addEventListener('click',function(e){
     var t=e.target.closest('[data-full]'); if(!t) return;
@@ -710,10 +565,26 @@ var CERTS = [
   });
   lb.addEventListener('click',function(){lb.close();});
 
+  // reveal on scroll
+  var rv=document.querySelectorAll('.metric,.case,.role,.skill,.cert,.sec-head,.contact-inner');
+  rv.forEach(function(el,i){el.classList.add('reveal'); if(el.classList.contains('cert')||el.classList.contains('metric')) el.style.transitionDelay=((i%4)*80)+'ms';});
   if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{threshold:.08});
-    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
-  } else document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{threshold:.12});
+    rv.forEach(function(el){io.observe(el);});
+    // count-up
+    var co=new IntersectionObserver(function(es){es.forEach(function(x){
+      if(!x.isIntersecting) return; co.unobserve(x.target);
+      var el=x.target,to=+el.dataset.count,t0=null;
+      if(matchMedia('(prefers-reduced-motion: reduce)').matches){el.textContent=to.toLocaleString('en-US');return;}
+      function step(t){t0=t0||t;var k=Math.min(1,(t-t0)/1400),e=1-Math.pow(1-k,3);el.textContent=Math.round(to*e).toLocaleString('en-US');if(k<1)requestAnimationFrame(step);}
+      requestAnimationFrame(step);
+    });},{threshold:.6});
+    document.querySelectorAll('[data-count]').forEach(function(el){co.observe(el);});
+  } else rv.forEach(function(el){el.classList.add('in');});
+  // scroll progress
+  var pb=document.getElementById('progress');
+  function prog(){var h=document.documentElement;pb.style.transform='scaleX('+(h.scrollTop/((h.scrollHeight-h.clientHeight)||1))+')';}
+  addEventListener('scroll',prog,{passive:true}); prog();
 })();
 </script>
 </body>
